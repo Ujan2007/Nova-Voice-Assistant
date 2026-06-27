@@ -1,0 +1,15 @@
+# Python cache
+__pycache__/
+
+# Environment variables
+.env
+
+# Temporary audio
+*.mp3
+*.wav
+
+# Pytest
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
