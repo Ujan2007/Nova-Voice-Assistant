@@ -164,12 +164,12 @@ while True:
                 pyautogui.scroll(700)
                 continue
 
-        # Any other command will fall through and be processed normally
+        
 
 
-        # -------------------------
+        
         # CONTINUOUS MODE
-        # -------------------------
+        
         elif CONTINUOUS_MODE:
 
             command = listen().strip().lower()
@@ -186,9 +186,9 @@ while True:
                 continue
 
 
-        # -------------------------
+        
         # SLEEP MODE
-        # -------------------------
+        
         elif not ACTIVE_MODE:
 
 
@@ -237,9 +237,9 @@ while True:
             continue
 
 
-        # -------------------------
+        
         # NORMAL ACTIVE MODE
-        # -------------------------
+        
         else:
 
             time.sleep(0.3)
@@ -273,7 +273,7 @@ while True:
 
             open_app("spotify")
 
-            # Wait until Spotify opens (max 10 seconds)
+            
             start = time.time()
 
             while time.time() - start < 10:
@@ -292,7 +292,6 @@ while True:
 
                 time.sleep(0.2)
 
-            # Give Spotify a tiny moment to become active
             time.sleep(0.3)
 
             pyautogui.hotkey("ctrl", "l")
