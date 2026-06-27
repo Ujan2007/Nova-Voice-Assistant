@@ -4,16 +4,12 @@ import pygame
 import tempfile
 import os
 
-# -----------------------------
-# INITIALIZE AUDIO
-# -----------------------------
+
 pygame.mixer.init()
 
 VOICE = "en-US-JennyNeural"
 
-# -----------------------------
 # PRE-RECORDED HOMELANDER LINES
-# -----------------------------
 SOUNDS = {
     #"goodbye!": "sounds/goodbye2.mp3",
     #"opening youtube": "sounds/opening-youtube.mp3",
